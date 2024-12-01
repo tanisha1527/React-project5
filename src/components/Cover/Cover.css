@@ -1,0 +1,27 @@
+.cover{
+   width: 100%;
+   min-height: 100vh;
+   background: linear-gradient(rgba(167, 53, 53, 0.7),rgba(167, 53, 53, 0.7)), url('../../assets/cover.webp');
+   background-size: cover;
+   background-position: center;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.cover-text{
+   text-align: center;
+   max-width: 800px;
+}
+
+.cover-text h1{
+   font-size: 60px;
+   font-weight: 600;
+}
+
+.cover-text p{
+   max-width: 700px;
+   margin: 10px auto 20px;
+   line-height: 1.4;
+}
